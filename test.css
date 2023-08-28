@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x:hidden;
+}
+button{
+    position:relative;
+    width:15%;
+    height:55;
+    border:none;
+    float:left;
+    margin:0;
+}
+#c1{
+    width:100%;
+    height:500;
+    position:relative;
+}
+#welcome{
+    font-size:50;
+    float:left;
+}
+video{
+    position:relative;
+    width:300;
+    height:200;
+    margin:30px 0 0 30px;
+    border-radius:20px;
+    float:left;
+}
+#extraction{
+    clear:left;
+}
+#title{
+    top:0;
+    font-size:60;
+}
+#other{
+    width:calc(100% - 75%);
+}
+button:hover{
+    background-color:rgb(80, 80, 255);
+    box-shadow:0 10px 12px grey;
+    top:-5;
+    color:white;
+}
+h1{
+    position:relative;
+    font-family:Arial black;
+    margin: 0 0 0 30px;
+}
+header{
+    background-color:rgb(98, 98, 255);
+    height:80;
+}
+nav{
+    height:55;
+}
